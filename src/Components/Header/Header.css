@@ -89,7 +89,7 @@
         font-size: 12px;
     }
   }
-  @media (min-width: 601px) {
+  @media (min-width: 800px) {
     .nav__logo-container{
         display: flex;
         min-width: 100vw;
@@ -112,7 +112,7 @@
     }
     .hero-image{
         height: auto;
-        width: 100vw;
+        width: 80vw;
         object-fit: cover;
     }
     .name{
