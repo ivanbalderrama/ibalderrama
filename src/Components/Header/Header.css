@@ -3,11 +3,6 @@
         display: none;
     }
     .logo-container{
-        width: 100vw;
-        margin: 10px auto;
-        
-    }
-    .logo-container{
         height: auto;
     }
     .hero-container{
@@ -18,8 +13,9 @@
     }
     .hero-container img{
         object-fit: cover;
-        width: 100vw;
+        object-position: center;
         height: 100vh;
+        width: 100vw;
     }
     .hero__description-container{
         position: absolute;
@@ -27,60 +23,117 @@
         text-align: center;
     }
     .hero__description-container p{
-        margin-left: 5rem;
-        margin-right: 5rem;
-        color: black;
+        padding: 0 50px;
     }
     .name{
         color: #718355;
     }
-
+    
+    .resume__button-container{
+        padding-top: 50px;
+    }
+    .resume__button{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
   }
 
 
-/***header{
-    width: 100vw;
-}
-.nav__logo-container{
-    display: flex;
-    align-items: center;
-    min-width: 100vw;
-}
-.logo-container{
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.navigation-container{
-    position: relative;
-    right: 5;
-    margin-left: 50vw;
-}
-ul{
-    display: flex;
-}
-ul li{
-    list-style: none;
-    margin: 10px;
-}
-.hero-image{
-    height: 676px;
-    width: 100vw;
-    object-fit: cover;
-}
-.name{
-    color: #718355;
-}
-.hero-container{
-    margin-top: 20px;
-    position: relative;
-    height: 676px;
-}
-.hero__description-container{
-    position: absolute;
-    top: 16rem;
-    left: 6.25rem;
-}
-.hero__description-container p, h1{
-    max-width: 400px;
-    text-align: left;
-}***/
+  @media (min-width: 601px) {
+  .nav__logo-container{
+    display: none;
+    }
+    .hero-container{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        text-align: center;
+    }
+    .hero-container img{
+        object-fit: cover;
+        object-position: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    .hero__description-container{
+        position: absolute;
+        top: 400px;
+        padding: 0 200px
+    }
+    .hero__description-container p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .name{
+        color: #718355;
+    }
+    .resume__button-container{
+        padding-top: 50px;
+    }
+    .resume__button{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+  }
+  @media (min-width: 601px) {
+    .nav__logo-container{
+        display: flex;
+        min-width: 100vw;
+        max-width: 100vw;
+    }
+    .logo-container{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .navigation-container{
+        margin-left: 70%;
+        margin-top: 40px;
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+        margin: 10px;
+    }
+    .hero-image{
+        height: auto;
+        width: 100vw;
+        object-fit: cover;
+    }
+    .name{
+        color: #718355;
+    }
+    .hero-container{
+        margin-top: 20px;
+        position: relative;
+        height: 70%vh;
+    }
+    .hero__description-container{
+        position: absolute;
+        top: 16rem;
+        left: 6.25rem;
+    }
+    .hero__description-container p, h1{
+        max-width: 400px;
+        text-align: left;
+    }
+    .resume__button-container{
+        text-align: left;
+    }
+  }
+
