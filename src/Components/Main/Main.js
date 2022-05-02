@@ -36,35 +36,35 @@ export default function Main() {
                         </p>
                     </div>
                 </div>
-                
+
             </section>
             <section>
-            <div className="dtav-container">
-                <div className="dtav__logo-container">
+                <div className="dtav-container">
+                    <div className="dtav__logo-container">
                         <img className="dtav__Logo" src={dtavLogo} alt="ozarks garage detail logo" />
                     </div>
-                    <div className="dtav__image-container">
-                        <img className="dtav__Website-image" src={dtavWebsite} alt="ozarks garage detail website" />
+                        <div className="dtav__image-container">
+                            <img className="dtav__Website-image" src={dtavWebsite} alt="ozarks garage detail website" />
+                        </div>
+                        <div className="dtav__description-container">
+                            <h3>DTAV</h3>
+                            <p>DTAV was created for the user to be able to input a vin number and display
+                                their vehicle's information. The data is fetches data from an API from Auto.dev
+                                and displays information such as year, make, model, and some other mechanical specs.
+                            </p>
+                            <p>More info coming soon...</p>
+                        </div>
                     </div>
-                    <div className="dtav__description-container">
-                        <h3>DTAV</h3>
-                        <p>DTAV was created for the user to be able to input a vin number and display
-                        their vehicle's information. The data is fetches data from an API from Auto.dev 
-                        and displays information such as year, make, model, and some other mechanical specs. 
-                        </p>
-                        <p>More info coming soon...</p>
-                    </div>
-                </div>
             </section>
             <section>
                 <div className="ogDetail-container">
-                <div className="og__logo-container">
+                    <div className="og__logo-container">
                         <img className="og__Logo" src={ogLogo} alt="ozarks garage detail logo" />
                     </div>
                     <div className="ogDetail__image-container">
                         <img className="og__Website-image" src={ozarkWebsite} alt="ozarks garage detail website" />
                     </div>
-                    
+
                     <div className="og__description-container">
                         <h3>Ozark's Garage Detail</h3>
                         <p>This website was designed using Wix. The previous design “worked”, but I didn’t just want something functional.
@@ -97,8 +97,8 @@ export default function Main() {
                         <div className="twadeUp__tablet__image-container">
                             <img src={tuTablet} alt="Twade Up Tablet" />
                         </div>
-                            
-                        
+
+
                     </div>
                     <div className="twadeUp__description-container">
                         <h3>Twade Up</h3>
