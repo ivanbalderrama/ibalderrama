@@ -24,7 +24,7 @@ body{
   }
   p{
     color: #5C5C5C;
-    size: 10px;
+    font-size: 10px;
   }
 }
 @media (min-width: 601px){
@@ -43,31 +43,21 @@ body{
   }
   p{
     color: #5C5C5C;
-    size: 12px;
+    font-size: 12px;
   }
 }
-/*
-body{
-    font-family: 'Gilroy', sans-serif;
-    margin: 0;
-    padding: 0;
+@media (min-width: 821px){
+  
+  li, h3{
+    color: #718355;
+    font-weight: 200;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p{
+    color: #5C5C5C;
+    font-size: 16px;
+  }
 }
-h1{
-  color: #718355;
-  color: #5F5F5F;
-  font-weight: 200;
-  font-size: 57px;
-}
-li, h3{
-  color: #718355;
-  font-weight: 200;
-}
-h3{
-  font-size: 25px;
-}
-p{
-  color: #5C5C5C;
-  size: 14px;
-}
-*/
 

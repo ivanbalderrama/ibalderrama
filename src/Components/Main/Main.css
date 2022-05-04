@@ -99,15 +99,17 @@
    .twadeUp__description-container h3{
        margin-top: 100px;
    }
+   .twadeUp__description-container p{
+       padding: 0 50px;
+   }
     .oneCountry__description-container{
-        margin-top: auto;
-        margin-bottom: auto;
+        margin-top: 100px;
     }
     .oneCountry__description-container p,h3{
-        max-width: 481px;
+        padding: 0 50px;
     }
     .oneCountry__image-container{
-        height: 1004px;
+        height: 700px;
         position: relative;
     }
     .oneCountry__image-container img{

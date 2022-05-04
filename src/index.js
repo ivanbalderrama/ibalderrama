@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
+import Dtav from './Components/Dtav/Dtav'
 import {
   BrowserRouter,
   Routes,
@@ -14,6 +15,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/dtav" element={<Dtav/>}/>
     </Routes>
   </BrowserRouter>);
 

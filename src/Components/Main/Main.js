@@ -6,7 +6,7 @@ import ocTabsTwo from '../../images/OCTabs2.jpg'
 import ocTabsThree from '../../images/OCTabs3.jpg'
 import tuTablet from '../../images/tu-tablet.png'
 import tuLogo from '../../images/handshake.png'
-import dtavLogo from '../../images/DTAV.svg'
+import dtavLogo from '../../images/DTAV.png'
 import dtavWebsite from '../../images/dtav-website.png'
 import './Main.css'
 export default function Main() {
@@ -17,22 +17,22 @@ export default function Main() {
                     <div className="column">
                         <h3>Passionate</h3>
                         <p>
-                            Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            I am passionate about my work and am willing to learn anything I can to be better in my future. Knowledge will always be my
+                            biggest personal investment and will continue to not only teach myself but to take everything I can with me from any project.
                         </p>
                     </div>
                     <div className="column">
-                        <h3>Diligent.</h3>
+                        <h3>Diligent</h3>
                         <p>
-                            Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            I'm self conscience about putting out the best work I can possible. I understand hard work, determination, and willingness
+                            to learn can earn great success. The best way to show that is to respect your time and your investment in me.
                         </p>
                     </div>
                     <div className="column">
-                        <h3>Lorem Ipsum</h3>
+                        <h3>Time-Management</h3>
                         <p>
-                            Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Although stress can be counter productive, school has taught me to keep myself organized and clear minded when it comes to time.
+                            I plan my day to assure I keep my mind focused on whatever task I take on throughout the day to provide the best results.
                         </p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ export default function Main() {
                                 their vehicle's information. The data is fetches data from an API from Auto.dev
                                 and displays information such as year, make, model, and some other mechanical specs.
                             </p>
-                            <p>More info coming soon...</p>
+                            <a href="/dtav">Read More...</a>
                         </div>
                     </div>
             </section>
@@ -97,8 +97,6 @@ export default function Main() {
                         <div className="twadeUp__tablet__image-container">
                             <img src={tuTablet} alt="Twade Up Tablet" />
                         </div>
-
-
                     </div>
                     <div className="twadeUp__description-container">
                         <h3>Twade Up</h3>

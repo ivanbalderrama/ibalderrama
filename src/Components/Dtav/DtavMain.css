@@ -1,0 +1,118 @@
+@media (max-width: 600px){
+    .dtav__main-container{
+        width: 100vw;
+    }
+    .dtav__about-container, .dtav__plans-container, .dtav__used-container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .dtav__main-container p{
+        padding: 0 50px;
+    }
+    .dtav__about-container img{
+        margin-top: 50px;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45); 
+        box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45);
+    }
+    .dtav__plans-container p{
+        color: #cecece;
+    }
+    .dtav__used-container img{
+        margin-top: 50px;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45); 
+        box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45);
+    }
+}
+@media (min-width: 601px) {
+    .dtav__main-container{
+        width: 100vw;
+    }
+    .dtav__about-container, .dtav__plans-container, .dtav__used-container{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        padding-bottom: 75px;
+    }
+    
+    .dtav__about-container img{
+        margin-top: 50px;
+        width: 500px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45); 
+        box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45);
+    }
+    .dtav__about-container p, .dtav__plans-container p, .dtav__used-container p{
+        padding: 0 100px;
+    }
+    .dtav__used-container img{
+        margin-top: 50px;
+        width: 500px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        -webkit-box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45); 
+        box-shadow: 3px 0px 20px 5px rgba(0,0,0,0.45);
+    }
+}
+.dtav__about-container{
+    background-color:#E8E8E8;
+}
+.dtav__plans-container{
+    background-color: black;
+}
+@media (min-width: 821px) {
+    .dtav__plans-container p{
+        color: #E8E8E8;
+    }
+    .dtav__about-container, .dtav__used-container{
+        text-align: left;
+        position: relative;
+        height: 40vw;
+        display: block;
+    }
+    .dtav__about-container h3, .dtav__used-container h3{
+        height: 20px;
+        padding: 200px 100px 0;
+    }
+    .dtav__about-container p, .dtav__used-container p{
+        text-align: left;
+        width: 40vw;
+        
+    }
+    .dtav__about-container img, .dtav__used-container img{
+        width: 600px;
+        height: auto;
+        position: absolute;
+        right: 5%;
+        top: 30px;
+    }
+}
+
+  
+  li, h3{
+    color: #718355;
+    font-weight: 200;
+  }
+  h3{
+    font-size: 30px;
+  }
+  p{
+    color: #5C5C5C;
+    font-size: 16px;
+  }
