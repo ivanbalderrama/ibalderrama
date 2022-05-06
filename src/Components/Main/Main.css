@@ -144,6 +144,17 @@
     width: 100vw;
     text-align: center;
     }
+    .dtav__read__link{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
     .ogDetail-container{
     background-color: #292828;
     height: 1000px;

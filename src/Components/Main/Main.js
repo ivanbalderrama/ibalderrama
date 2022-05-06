@@ -8,8 +8,21 @@ import tuTablet from '../../images/tu-tablet.png'
 import tuLogo from '../../images/handshake.png'
 import dtavLogo from '../../images/DTAV.png'
 import dtavWebsite from '../../images/dtav-website.png'
+import {Link} from 'react-router-dom'
 import './Main.css'
 export default function Main() {
+    const linkStyle = {
+        padding: "8px 30px",
+        border: "none",
+        borderRadius: "10px",
+        color: "white",
+        backgroundColor: "#718355",
+        fontFamily: 'Gilroy',
+        letterSpacing: ".20px",
+        textDecoration: "none",
+        fontSize: "12px",
+        marginTop: "1rem"
+    }
     return (
         <>
             <section className="skills-container">
@@ -52,7 +65,7 @@ export default function Main() {
                                 their vehicle's information. The data is fetches data from an API from Auto.dev
                                 and displays information such as year, make, model, and some other mechanical specs.
                             </p>
-                            <a href="/dtav">Read More...</a>
+                            <Link style={linkStyle} to="/dtav">Read More...</Link>
                         </div>
                     </div>
             </section>

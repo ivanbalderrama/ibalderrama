@@ -1,6 +1,7 @@
 import React from 'react'
 import ibLogo from '../../images/ib-logo.svg'
 import dtavHero from '../../images/dtav-hero-background.png'
+import {Link} from 'react-router-dom'
 import './DtavHeader.css'
 export default function DtavHeader() {
     return (
@@ -10,7 +11,7 @@ export default function DtavHeader() {
                     <a href="/"><span> Back</span></a>
                 </div>
                 <div className="dtav__ib__logo-container">
-                    <img src={ibLogo} alt="ib logo" />
+                    <Link to="/"><img src={ibLogo} alt="ib logo" /></Link>
                 </div>
                 
             </div>

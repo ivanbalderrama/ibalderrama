@@ -3,13 +3,4 @@ body{
   padding: 0;
   width: 100vw;
 }
-@media (max-width: 600px) {
-  
-  .scroll__button{
-    visibility: hidden;
-    padding: 10px 15px;
-    border: none;
-    background-color: #718355;
-    color: white;
-  }
-}
+

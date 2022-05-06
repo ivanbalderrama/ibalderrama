@@ -47,8 +47,12 @@
 
 
   @media (min-width: 601px) {
-  .nav__logo-container{
+  .navigation{
     display: none;
+    }
+    .nav__logo-container{
+        text-align: center;
+        padding: 30px;
     }
     .hero-container{
         width: 100vw;
@@ -89,7 +93,7 @@
         font-size: 12px;
     }
   }
-  @media (min-width: 800px) {
+  @media (min-width: 821px) {
     .nav__logo-container{
         display: flex;
         min-width: 100vw;
