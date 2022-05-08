@@ -348,6 +348,9 @@
         bottom: 0;
         text-align: left;
     }
+    .og__description-container p{
+        color: white;
+    }
     .oneCountry-container{
         display: flex;
     }

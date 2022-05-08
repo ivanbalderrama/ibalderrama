@@ -83,6 +83,7 @@ export default function Main() {
                         <p>This website was designed using Wix. The previous design “worked”, but I didn’t just want something functional.
                             I needed to add a design that was easier for clients to read and get higher end clients.</p>
                         <p>More info coming soon...</p>
+                        <Link style={linkStyle} to="/ogdetail">Read More</Link>
                     </div>
                 </div>
             </section>
