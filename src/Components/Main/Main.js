@@ -65,7 +65,7 @@ export default function Main() {
                                 their vehicle's information. The data is fetches data from an API from Auto.dev
                                 and displays information such as year, make, model, and some other mechanical specs.
                             </p>
-                            <Link style={linkStyle} to="/dtav">Read More...</Link>
+                            <Link style={linkStyle} to="/dtav">Read More</Link>
                         </div>
                     </div>
             </section>
@@ -82,7 +82,6 @@ export default function Main() {
                         <h3>Ozark's Garage Detail</h3>
                         <p>This website was designed using Wix. The previous design “worked”, but I didn’t just want something functional.
                             I needed to add a design that was easier for clients to read and get higher end clients.</p>
-                        <p>More info coming soon...</p>
                         <Link style={linkStyle} to="/ogdetail">Read More</Link>
                     </div>
                 </div>
@@ -93,7 +92,7 @@ export default function Main() {
                         <h3>One Country</h3>
                         <p>This was a small design I did for One Country during my contractor/internship position. During this position I learned a
                             lot especially the functionality of how to display data on them. It provided easier access for the clients to keep up to date on the most recent news.</p>
-                        <p>More info coming soon...</p>
+                        <Link style={linkStyle} to="/oneCountry">Read More</Link>
                     </div>
                     <div className="oneCountry__image-container">
                         <img className="oneCountry__Tabs1" src={ocTabsOne} alt="ozarks garage detail logo" />

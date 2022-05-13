@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.97e4be37.css",
-    "main.js": "/static/js/main.54413a3c.js",
+    "main.css": "/static/css/main.d98ab3fb.css",
+    "main.js": "/static/js/main.2226392e.js",
     "static/js/787.bdebc965.chunk.js": "/static/js/787.bdebc965.chunk.js",
     "static/media/ozarksgarage-website.png": "/static/media/ozarksgarage-website.8dbaefe951c3d3343f7f.png",
     "static/media/hero-background.jpg": "/static/media/hero-background.5259c5b47433c8477902.jpg",
+    "static/media/ogHero.png": "/static/media/ogHero.06805a3627cebcbab427.png",
+    "static/media/xd-ogDetail.png": "/static/media/xd-ogDetail.2df7185e60565f6a48ea.png",
     "static/media/dtav-website.png": "/static/media/dtav-website.dc3917e1cc010eef17ef.png",
     "static/media/dtav-hero-background.png": "/static/media/dtav-hero-background.744675caacb48b75e8ad.png",
+    "static/media/ogDetailTable.png": "/static/media/ogDetailTable.ee54616b10d26b007584.png",
     "static/media/OCTabs2.jpg": "/static/media/OCTabs2.0e57c3b0ea9c9a6bd1fc.jpg",
     "static/media/tu-tablet.png": "/static/media/tu-tablet.16be70a8b25feeed3cfe.png",
     "static/media/OCTabs3.jpg": "/static/media/OCTabs3.15716ee3a705db2813e5.jpg",
@@ -21,12 +24,12 @@
     "static/media/handshake.png": "/static/media/handshake.7dc1f417d329e1360fcc.png",
     "static/media/ib-logo.svg": "/static/media/ib-logo.0374cc2c06a82fa9e4704167e73853eb.svg",
     "index.html": "/index.html",
-    "main.97e4be37.css.map": "/static/css/main.97e4be37.css.map",
-    "main.54413a3c.js.map": "/static/js/main.54413a3c.js.map",
+    "main.d98ab3fb.css.map": "/static/css/main.d98ab3fb.css.map",
+    "main.2226392e.js.map": "/static/js/main.2226392e.js.map",
     "787.bdebc965.chunk.js.map": "/static/js/787.bdebc965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97e4be37.css",
-    "static/js/main.54413a3c.js"
+    "static/css/main.d98ab3fb.css",
+    "static/js/main.2226392e.js"
   ]
 }

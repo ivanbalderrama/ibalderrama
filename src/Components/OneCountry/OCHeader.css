@@ -1,0 +1,32 @@
+@media (max-width: 600px){
+    .oc__top-container{
+        display: flex;
+        margin-top: 20px;
+        width: 100vw;
+    }
+    .oc__back__btn-container{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .oc__back__btn-container a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #5C5C5C;
+    }
+    .oc__ib__logo-container{
+        margin-left: 100px;
+    }
+    .logo-container img{
+        width: 37px;
+        height: auto;
+    }
+    .oc__hero-container{
+        margin-top: 10px;
+        border: none;
+    }
+    .oc__hero-container img{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+}

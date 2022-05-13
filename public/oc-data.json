@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "category": "winner",
+        "title":"Recent Winner",
+        "description":"John Doe, dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img":"https://unsplash.com/photos/yd4ubMUNTG0"
+    }, 
+    {
+        "id": 2,
+        "category":"newGiveaways",
+        "title":"Enter to Win!",
+        "description":"Porsche dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img":"https://unsplash.com/photos/pjxe3p4u5aI"
+    },
+    {
+        "id": 3,
+        "category": "endingGiveaways", 
+        "title":"Time is ALMOST Over!",
+        "description":"Porsche dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "img":"https://unsplash.com/photos/OgcJIKRnRC8"
+    }   
+    
+    
+]
+
+
+

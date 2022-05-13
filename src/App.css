@@ -10,11 +10,11 @@ body{
     font-weight: 200;
     font-size: 30px;
   }
-  li, h3{
-    color: #718355;
+  li{
     font-weight: 200;
   }
   h3{
+    color: #718355;
     font-size: 25px;
   }
   p{
