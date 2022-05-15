@@ -1,5 +1,5 @@
 @media(max-width: 600px){
-    p{
+    .container p{
         font-size: 13px;
         padding: 0 30px 0;
     }
@@ -32,6 +32,11 @@
         background-color: #f4f4f4;
         padding: 30px 0
     }
+    .tabbedContent__header{
+        color: #13284A;
+        letter-spacing: 0.03em;
+        
+    }
     .tabbedContent__image{
         width: 70vw;
         height: auto;
@@ -42,7 +47,163 @@
         text-align: 0;
         font-size: 13px;
     }
+    .oc__about-container{
+        display: block;
+        margin-top: 100px;
+    }
+    .oc__about-container p{
+        font-size: 13px;
+        padding: 0 30px 0;
+    }
 }
-@media(max-width: 600px){
+@media(min-width: 601px){
+    
+    .container p{
+        font-size: 16px;
+        padding: 0 100px 0;
+    }
+    .container{
+        text-align: center;
+    }
+    .container > h3{
+        margin-top: 100px;
+    }
+    .oc__about-container{
+        display: block;
+        margin-top: 100px;
+    }
+    .oc__about-container p{
+        font-size: 16px;
+        padding: 0 100px 0;
+    }
+    .block__tabs{
+        display: flex;
+        padding: 0;
+        margin: 70px 0 0 0;
+        justify-content: center;
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        border-radius: 12px 12px 0 0;
+        color: #142849;
+        font-size: 1rem;
+        padding: 10px 15px;
+        background-color: #f4f4f4;
+    }
+    .active{
+        background-color: #AB2F2D;
+        color: white;
+    }
+    .content__info{
+        background-color: #f4f4f4;
+        padding: 30px 0
+    }
+    .tabbedContent__header{
+        color: #13284A;
+        letter-spacing: 0.03em;
+        
+    }
+    .tabbedContent__image{
+        width: 70vw;
+        height: auto;
+        border-radius: 20px;
+    }
+    .tabbedContent__descript{
+        padding: 20px;
+        text-align: 0;
+        font-size: 16px;
+    }
+    
+}
 
+@media (min-width: 821px){
+  .oc__about-container{
+      max-width: 50vw;
+  }
+  .oc__about-container h3{
+      margin-left: 100px;
+  }
+  .oc__about-container > p{
+      font-size: 20px;
+  }
+  .container{
+      width: 80vw;
+      text-align: left;
+      margin-left: 100px;
+  }
+  .container p{
+      font-size: 20px;
+      margin-right: 40vw;
+      padding: 0;
+  }
+  .block__tabs{
+    display: flex;
+    padding: 0;
+    justify-content: left;
+    margin-left: 30px;
+  }
+    li{
+        text-decoration: none;
+        list-style: none;
+        border-radius: 12px 12px 0 0;
+        color: #142849;
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        background-color: #f4f4f4;
+        
+    }
+    li:hover{
+        cursor: pointer;
+        background-color: #ab2f2d6e;
+        color: white;
+    }
+    .active{
+        background-color: #AB2F2D;
+        color: white;
+    }
+    .content__info{
+        background-color: #f4f4f4;
+        padding: 0;
+        border-radius: 20px;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+    }
+    .content__info h3{
+        margin-left: 8.5%;
+        height: 40px;
+        margin-top: 5%;
+        font-weight: 600;
+    }
+    .content__info p{
+        margin: 0;
+        width: 40%;
+        position: absolute;
+        right: 10%;
+        top: 40%;
+    }
+    .tabbedContent__header{
+        color: #13284A;
+        letter-spacing: 0.03em;
+        margin: 0;
+        
+    }
+    .tabbedContent__image{
+        width: 30vw;
+        height: 40vh;
+        border-radius: 20px;
+        object-fit: cover;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+    .tabbedContent__descript{
+        padding: 20px;
+        text-align: 0;
+        font-size: 16px;
+        margin-right: 0;
+    }
+  
 }

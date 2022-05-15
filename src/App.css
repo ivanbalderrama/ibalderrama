@@ -30,7 +30,6 @@ body{
     font-size: 40px;
   }
   li{
-    color: #718355;
     font-weight: 200;
   }
   h3{
@@ -41,11 +40,12 @@ body{
 }
 @media (min-width: 821px){
   
-  li, h3{
-    color: #718355;
+  li{
     font-weight: 200;
   }
   h3{
+    color: #718355;
+    font-weight: 200;
     font-size: 50px;
   }
   p{
