@@ -117,6 +117,18 @@
         width: 350px;
         object-fit: cover;
     }
+    .twadeUp-button{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 1rem;
+    }
 }
 @media (min-width: 601px) {
     section{
@@ -179,6 +191,9 @@
         text-align: center;
         margin-top: 75px;
     }
+    .og__description-container p{
+        color: rgb(182, 182, 182);
+    }
     .og__logo-container img, .dtav__logo-container img{
         height: auto;
         width:323px;
@@ -191,6 +206,7 @@
     }
     .oneCountry__image-container{
         height: 1004px;
+        margin-top: 10%;
     }
     .oneCountry__image-container img{
         height: auto;
@@ -234,6 +250,18 @@
     .twadeUp__description-container p{
         padding: 0 200px;
     }
+    .twadeUp-button{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 1rem;
+    }
 }
 
 @media (min-width: 821px) {
@@ -275,12 +303,13 @@
         text-align: left;
         margin-left: 100px;
         margin-top: 0;
+        padding-top: 75px;
     }
    
     .dtav__logo-container img{
         height: auto;
         width: 600px;
-        order: 1;
+
     }
     .dtav__image-container{
         position: relative;
@@ -300,6 +329,9 @@
         max-width: 40%;
         bottom: 0;
         
+    }
+    .dtav__description-container p{
+        margin-bottom: 100px;
     }
     .dtav__Website-image{
         max-width: 800px;
@@ -414,6 +446,19 @@
     }
     .twadeUp__description-container p, .twadeUp__description-container h3{
         padding: 0 100px;
+    }
+    .twadeUp-button{
+        padding: 8px 30px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        background-color: #718355;
+        font-family: 'Gilroy';
+        letter-spacing: .20px;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 1rem;
+        margin-left: 6.3rem;
     }
 
 }

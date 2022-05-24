@@ -12,7 +12,7 @@ import {Link} from 'react-router-dom'
 import './Main.css'
 export default function Main() {
     const linkStyle = {
-        padding: "8px 30px",
+        padding: "10px 30px",
         border: "none",
         borderRadius: "10px",
         color: "white",
@@ -20,8 +20,7 @@ export default function Main() {
         fontFamily: 'Gilroy',
         letterSpacing: ".20px",
         textDecoration: "none",
-        fontSize: "12px",
-        marginTop: "1rem"
+        fontSize: "12px"
     }
     return (
         <>
@@ -118,7 +117,7 @@ export default function Main() {
                             A user shouldn’t have to double think on how to get somewhere and this project was designed
                             around that.</p>
 
-                        <p>More info coming soon...</p>
+                            <a className="twadeUp-button" href="https://spark.adobe.com/page/sMRPdHiECs9al/" type="submit">Read More</a>
                     </div>
                 </div>
             </section>

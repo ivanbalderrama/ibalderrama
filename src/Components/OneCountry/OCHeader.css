@@ -67,8 +67,6 @@
         display: flex;
         margin-top: 20px;
         width: 100vw;
-        align-items: center;
-        justify-content: center;
     }
     .oc__back__btn-container{
         display: none;
@@ -79,7 +77,7 @@
         color: #5C5C5C;
     }
     .oc__ib__logo-container{
-        margin-left: 280px;
+        margin-left: 100px;
     }
     .logo-container img{
         width: 37px;
