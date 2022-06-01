@@ -56,7 +56,7 @@
    }
    .og__description-container p, .dtav__description-container p{
        padding: 0 50px;
-       
+       margin-bottom: 50px;
    }
    .twadeUp-container{
        background-color: #C7CCC1;
@@ -101,16 +101,23 @@
    }
    .twadeUp__description-container p{
        padding: 0 50px;
+       margin-bottom: 50px;
    }
     .oneCountry__description-container{
         margin-top: 100px;
     }
-    .oneCountry__description-container p,h3{
+    .oneCountry__description-container h3{
         padding: 0 50px;
+        
+    }
+    .oneCountry__description-container p{
+        padding: 0 50px;
+        margin-bottom: 50px;
     }
     .oneCountry__image-container{
         height: 700px;
         position: relative;
+        margin-top: 50px;
     }
     .oneCountry__image-container img{
         height: auto;
@@ -157,15 +164,15 @@
     text-align: center;
     }
     .dtav__read__link{
-        padding: 8px 30px;
-        border: none;
-        border-radius: 10px;
-        color: white;
-        background-color: #718355;
-        font-family: 'Gilroy';
-        letter-spacing: .20px;
-        text-decoration: none;
-        font-size: 12px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #718355;
+    font-family: 'Gilroy';
+    letter-spacing: .20px;
+    text-decoration: none;
+    font-size: 12px;
     }
     .ogDetail-container{
     background-color: #292828;
@@ -312,26 +319,23 @@
 
     }
     .dtav__image-container{
-        position: relative;
-        margin: none;
+        margin: 100px auto;
         width: 49px;
-        text-align: right;
-        height: 120px;
+        height: 0;
     }
     .dtav__image-container img{
         width: 46.93rem;
         height: auto;
-        position: absolute;
+        margin-left: 10%
     }
     .dtav__description-container{
         padding: 0 100px;
         text-align: left;
-        max-width: 40%;
-        bottom: 0;
+        max-width: 30%;
         
     }
     .dtav__description-container p{
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .dtav__Website-image{
         max-width: 800px;
@@ -343,14 +347,13 @@
         text-align: right;
     }
     .ogDetail__image-container{
-        position: relative;
-        margin: none;
+        margin: 100px auto;
         width: 49px;
-        height: 120px;
-        left: 0;
+        height: 0;
     }
     .ogDetail__image-container img{
         width: 46.93rem;
+        margin: none;
         height: auto;
         object-fit: cover;
         border-radius: 32px;
@@ -376,12 +379,12 @@
     }
     .og__description-container{
         padding: 0 100px;
-        max-width: 40%;
-        bottom: 0;
+        max-width: 30%;
         text-align: left;
     }
     .og__description-container p{
         color: white;
+        margin-bottom: 50px;
     }
     .oneCountry-container{
         display: flex;
@@ -390,8 +393,11 @@
         margin-top: auto;
         margin-bottom: auto;
     }
-    .oneCountry__description-container p,h3{
+    .oneCountry__description-container ,h3{
         max-width: 481px;
+    }
+    .oneCountry__description-container p{
+        margin-bottom: 50px;
     }
     .oneCountry__image-container{
         height: 1004px;
@@ -408,6 +414,9 @@
         height: 1100px;
         width: 100vw;
     }
+    .twadeUp__logo-container{
+        text-align: center;
+    }
     .twadeUp__logo-container img{
         height: auto;
         width: 20%;
@@ -415,36 +424,33 @@
         margin-top: 50px;
         object-fit: cover;
     }
+    
     .tablet__phone-container{
-        height: auto;
-        width: 100vw;
-        text-align: center;
+        text-align: left;
+        float: left;
+        width: 100%;
+        position: relative;
     }
     .twadeUp__tablet__image-container{
-        position: relative;
-        margin: 0;
-        height: 120px;
-        text-align: left;
+        margin: 100px auto;
     }
     .twadeUp__tablet__image-container img{
-         width: 40%;
+         width: 35%;
          height: auto;
          object-fit: cover;
          padding-left: 200px;
     }
-    .tablet__phone-container .phone-image{
-         height: 109px;
-         object-fit: cover;
-         position: absolute;
-         bottom: 10px;
-         z-index: 1;
-    }
     .twadeUp__description-container{
-        width: 49vw;
         text-align: left;
-        margin-left: 50vw;
+        position: absolute;
+        width: 50%;
+        right: 5%;
     }
-    .twadeUp__description-container p, .twadeUp__description-container h3{
+    .twadeUp__description-container h3{
+        padding: 0 100px;
+    }
+    .twadeUp__description-container p{
+        margin-bottom: 50px;
         padding: 0 100px;
     }
     .twadeUp-button{
